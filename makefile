@@ -1,4 +1,4 @@
-CC = clang++
+CC = g++
 LFLAGS = -std=c++11 -Wall
 
 all: LFLAGS += -Ofast -march=native
